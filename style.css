@@ -1,0 +1,498 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    width: 100vw;
+    overflow-x:hidden;
+}
+.main{
+    position: relative;
+    height:700px;
+    background-image: url('images/bg_files/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat:repeat;
+}
+.main .box{
+    position: absolute;
+    top: 0;
+    height: 700px;;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.header{
+    margin: auto;
+    height: 100px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav img{
+    position: relative;
+    z-index: 20;
+}
+.navright{
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign{
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    width: 70px;
+    height: 33px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.lang{
+    width: 100px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang select{
+    border-radius:2px;
+    color: white;
+    background-color: transparent;
+}
+.lang option{
+    color: black;
+}
+.hero{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    line-height:3.5em;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+}
+.first{
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+.second{
+    font-size: 1.5em;
+    font-weight: 250;
+    text-align: center;
+}
+.third{
+        font-size: 1.5em;
+        font-weight: 250;
+        text-align: center;
+}
+.start{
+    width: 200px;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+.in{
+    border-radius: 4px;
+    border:0.5px solid white;
+    background-color: transparent;
+    padding-left: 20px;
+    width: 350px;
+    height: 55px;
+    font-weight: 1.5em;
+    color: white;
+}
+.in:hover{
+    border:1px solid white;
+}
+.separate{
+    width: 100vw;
+    height: 8px;
+    background-color: gray;
+    opacity: 0.4;
+}
+.firstsec{
+    color: white;
+    width: 400px;
+    position: relative;
+  top: -55px;
+}
+.firstimgsec{
+    width: 450px;
+    position: relative;
+}
+.firstimgsec img{
+    width: 450px;
+    height: 320px;
+    top: 6px;
+    position: relative;
+    z-index: 5;
+    top: 68px;
+}  
+.firstimgsec video{
+    position: relative;
+    bottom: 214px;
+    left: 58px;
+    height: 200px;
+}
+.sec1{
+    width: 95vw;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.firstsec1{
+    font-size:3em ;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom:12px;
+}
+.firstsec2{
+    font-size:1.5em ;
+    line-height: 1.5em;
+    font-weight: 400px;
+}
+.sec2{
+    width: 95vw;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.secondtxt{
+    width:430px ;
+
+}
+.secondtxt0{
+    font-size: 3em;
+    color: white;
+    font-weight: bolder;
+    margin-bottom:12px;
+}
+.secondtxt1{
+    color: white;
+    font-size:1.5em ;
+    line-height: 1.5em;
+    font-weight: 400px;
+}
+.secondsec{
+    height: 330px;
+}
+.sec3{
+    width: 95vw;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.thirdsec1{
+    font-size:3em ;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom:12px;
+}
+.thirdsec2{
+    font-size:1.2em ;
+    line-height: 1.5em;
+    font-weight: 400px;
+}
+.thirdsec{
+    color: white;
+    width: 420px;
+}
+.thirdimgsec{
+    width: 430px;
+    height: 330px;
+    position: relative;
+}
+.thirdimgsec img{
+    width:400px;
+    height:320px;
+    position: relative; 
+    z-index: 5; 
+}  
+.thirdimgsec video{
+    width: 246px;
+    height: 190px;
+    position: relative;
+    bottom: 321px;
+    left:78px;
+}
+.sec4{
+    width: 95vw;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.fourthtxt{
+    width:400px ;
+}
+.fourthtxt0{
+    font-size: 3em;
+    color: white;
+    font-weight: bolder;
+    margin-bottom:12px;
+}
+.fourthtxt1{
+    color: white;
+    font-size:1.5em ;
+    line-height: 1.5em;
+    font-weight: 400px;
+}
+.fourthsec img{
+    width: 450px;
+  height: 300px;
+}
+.freq{
+    font-size: 3.5em;
+    color: white;
+    margin-bottom: 15px;
+}
+.last{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    margin-top: -30px;
+}
+.rec{
+    height: 80px;
+    width: 75vw;
+    background-color:#2d2d2d;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.rec:hover{
+    transition: all ease-in;
+    background-color:#414141 ;
+}
+.add img{
+    filter: invert(1);
+   color: white;
+}
+.p{
+    margin-top:40px ;
+    font-size: 1.2em;
+    color: white;
+}
+.lastfourth{
+    margin-top: 20px;
+}
+.lang1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media  screen and (max-width:1000px) {
+    .header{
+        flex-wrap: wrap;
+    }
+    .part{
+        flex-wrap:wrap;
+    }
+    .first{
+        font-size: 2em;
+    }
+    .second .third{
+font-size: 1em;
+    }
+    .fourth{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+    }
+}
+@media screen and (max-width:894px){
+    .firstsec{
+        margin-top: 65px;
+    }
+    .firstimgsec img{
+        width: 390px;
+        height: 270px;
+        top: 6px;
+        position: relative;
+        z-index: 5;
+        top: -45px;
+      }
+    .firstimgsec video{
+        position: relative;
+        bottom: 267px;
+        left: 52px;
+        height: 168px;
+      }
+      .sec2{
+        flex-wrap: wrap-reverse;
+    }
+    .secondtxt{
+        position: relative;
+        top: 84px;
+    }
+    .secondsec img{
+        position: relative;
+    top: 35px;
+    }
+    .sec4{
+        flex-wrap: wrap-reverse;
+    }
+    .fourthtxt{
+        position: relative;
+        top: 70px;
+    }
+    .last{
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .freq{
+        font-size: 2em;
+    }
+} 
+footer {
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    margin-top: 5px;
+    margin-bottom: 26px;
+    color:  #a7a7a7;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #a7a7a7;;
+}
+.footer select{
+    color:  #a7a7a7;
+}
+.footer option{
+    color:  #a7a7a7;
+}
+.footer a {
+    font-size: 1em;
+    color: #a7a7a7;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+} 
+@media screen and (max-width:500px) {
+    .fourth .in{
+        width: 250px;
+        height: 50px;
+} 
+.fourth .start{
+    width: 160px;
+    height: 50px;
+}
+.lang Select{
+    width: 80px;
+    height: 28px;
+}
+
+}
+@media screen and (max-width:416px){
+    .firstsec1{
+font-size: 2.4em;
+    }
+    .firstsec2{
+        font-size: 1.2em;
+    }
+    .secondtxt0{
+        font-size: 2.4em;
+    }
+    .secondtxt1{
+        font-size: 1.2em;
+    }
+    .thirdsec1{
+        font-size: 2.4em;
+    }
+    .thirdsec2{
+        font-size: 1.2em;
+    }
+    .fourthtxt{
+        position: relative;
+        top: 0px;
+    }
+    .fourthtxt0{
+        font-size: 2.4em;
+    }
+    .fourthtxt1{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width:368px) {
+.fourthtxt{
+    position: relative;
+    top: 16px;
+}
+.freq{
+    position: relative;
+    top: 16px;
+}
+.rec span{
+    font-size: 0.8em;
+}
+}
+@media screen and (max-width: 894px) {
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 286px){
+    .first{
+font-size: 1.5em;
+    }
+    .second .third .fourth{font-size: 0.9em;
+    }
+    .fourth .in{
+        width: 200px;
+        height: 45px;
+    }
+    .fourth .start{
+        width: 150px;
+        height: 45px;
+        font-size: 1em;
+    }
+}
